@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+body {
+  background: radial-gradient(
+    circle at 24.58% 13.7%,
+    #7d4159 0,
+    #773959 12.5%,
+    #6f3159 25%,
+    #652859 37.5%,
+    #591f59 50%,
+    #4b185a 62.5%,
+    #3a135b 75%,
+    #24125d 87.5%,
+    #00125f 100%
+  );
+  font-family: "Lato", sans-serif;
+}
+.container {
+  background: #ecf4ff;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: #1c1c1c;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space=between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 400px;
+  max-height: 160px;
+  box-shandow: 0px 4px 4px rgba(0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 8px 16px;
+  back-ground: #ecf4ff;
+  border-radius: 10px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: #db7093;
+  margin-top: 32px;
+  padding: 32px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+}
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: radial-gradient(
+    circle at 37.72% -19.64%,
+    #ffa09b 0,
+    #ff939d 12.5%,
+    #ff879c 25%,
+    #f57a97 37.5%,
+    #d86c8f 50%,
+    #bb5f85 62.5%,
+    #a1557c 75%,
+    #8a4c73 87.5%,
+    #77456b 100%
+  );
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+  background: #ffb6c1;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
